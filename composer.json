@@ -1,5 +1,5 @@
 {
-    "version" : "alpha-0.0.1",
+    "version" : "v0.0.1",
     "name": "frodov/oauth2-hhvm",
     "description": "OAuth2 standard adapted for hack with Slim",
     "authors": [
