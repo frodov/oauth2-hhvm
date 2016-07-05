@@ -1,22 +1,20 @@
 {
-    "version" : "1.0.0",
     "name": "frodov/oauth2-hhvm",
-    "description": "OAuth2 standard adapted for hack with Slim",
+    "version": "1.0.0",
+    "keywords": ["hhvm", "oauth2"],
+    "description": "OAuth2 server for hhvm",
+    "require": {
+        "hhvm" : ">=3.0.0"
+    },
     "authors": [
         {
             "name": "Freddy Vielma",
             "email": "freddyvielma@gmail.com"
         }
     ],
-    "require": {
-        "league/oauth2-server" : "5.0.3"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.1"
-    },
-    "autoload": {
+    "autoload" : {
         "psr-4" : {
-            "Frodov\\OAuth2\\Hhvm\\" : "src/"
+            "Frodov\\Oauth2\\Hhvm\\" : "src/"
         }
     }
 }
