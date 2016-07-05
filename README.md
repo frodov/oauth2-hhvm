@@ -1,5 +1,5 @@
 # OAuth2 Server
-OAuth 2 server for Hack With Slim Framework.
+OAuth 2 server for Hack with Slim Framework.
 
 Based on:
   - https://github.com/thephpleague/oauth2-server
