@@ -47,6 +47,11 @@ trait AccessTokenTrait
     abstract public function getClient() : ClientEntityInterface;
 
     /**
+     * @return string
+     */
+    abstract public function getIdentifier() : string;
+
+    /**
      * @return \DateTime
      */
     abstract public function getExpiryDateTime() : \DateTime;
